@@ -1,0 +1,65 @@
+# Environment Variables
+
+.env
+.env.*
+
+# Python
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment
+
+venv/
+env/
+ENV/
+
+# Logs
+
+*.log
+
+# Build / Distribution
+
+build/
+dist/
+*.egg-info/
+
+# Pytest
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / Editor
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# Secrets / Keys
+
+*.pem
+*.key
+
+# Database (if any local files)
+
+*.db
+*.sqlite3
+
+# Uvicorn / FastAPI
+
+*.pid
+
+# Misc
+
+*.bak
+*.tmp
